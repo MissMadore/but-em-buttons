@@ -1,0 +1,21 @@
+html {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url("../images/starfield.png");
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.btn {
+  color: rgba(180, 255, 244, .2);
+  border: 2px solid rgba(180, 255, 244, .2);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.icon {
+  background-image: url("../images/rocket.svg");
+}
