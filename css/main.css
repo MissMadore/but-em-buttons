@@ -9,13 +9,59 @@ body {
   background-repeat: repeat;
 }
 
-.btn {
-  color: rgba(180, 255, 244, .2);
-  border: 2px solid rgba(180, 255, 244, .2);
-  border-radius: 8px;
-  text-decoration: none;
+h1,
+p {
+  text-shadow: 0 0 10px rgba(255, 255, 255, .7);
 }
 
-.icon {
-  background-image: url("../images/rocket.svg");
+a,
+a:focus,
+a:hover, {
+  outline: none;
+}
+
+.btn {
+  color: #b4fff4;
+  border: 2px solid #b4fff4;
+  border-radius: 8px 8px 0 0;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+.btn-ghost:active {
+  bottom: -2px;
+}
+
+.btn-ghost:active .space-below {
+  bottom: -9.5px;
+}
+
+.btn-ghost:hover .icon {
+  top: 40%;
+}
+
+.btn-ghost:hover .space-below,
+.btn-ghost:focus .space-below {
+  background-color: rgba(180, 255, 244, .2);
+  border: 2px solid #b4fff4;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(180, 255, 244, .2);
+  border: 2px solid #b4fff4;
+  color: #b4fff4;
+}
+
+
+.space-below {
+  border: 2px solid #b4fff4;
+  border-top: 0;
+  border-radius: 0 0 8px 8px;
+  min-height: .7em;
+  width: calc(100% + 5px);
+  position: absolute;
+  left: -2.8px;
+  bottom: -.7em;
+  transition: all .2s linear;
 }
