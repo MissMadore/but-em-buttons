@@ -1,5 +1,5 @@
 html {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   color: #fff;
 }
 
@@ -16,11 +16,13 @@ p {
 
 a,
 a:focus,
-a:hover, {
+a:hover {
   outline: none;
+  border-color: #90ccc3;
 }
 
-.btn {
+.btn,
+.btn-ghost {
   color: #b4fff4;
   border: 2px solid #b4fff4;
   border-radius: 8px 8px 0 0;
@@ -52,7 +54,6 @@ a:hover, {
   border: 2px solid #b4fff4;
   color: #b4fff4;
 }
-
 
 .space-below {
   border: 2px solid #b4fff4;
